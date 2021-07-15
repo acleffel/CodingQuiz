@@ -1,0 +1,47 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white; 
+    margin: 10% auto;
+}
+    
+.container {
+   
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+a:hover {
+    color: #ab33c8;
+    font-family: sans-serif;
+}
+.btn {
+    width: 50%;
+    height: 50%;
+    margin-top: 20px;
+    padding: 10% auto;
+
+}
+p {
+    padding: 10px 0;
+}
+.btn:focus, .btn:active, .btn:visited {
+    box-shadow: none !important;
+    background-color: #c40ed5;
+}
+#startQuiz {
+    background-color: rgb(13, 164, 198);
+    font-size: 25px;
+    color: white;
+}   
+
+#timer {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
